@@ -1,4 +1,4 @@
-# 🚛 FleetLogix: Ecosistema de Datos y Logística Serverless
+#  FleetLogix: Ecosistema de Datos y Logística Serverless
 
 **FleetLogix** es una plataforma integral de ingeniería de datos diseñada para optimizar la gestión de flotas, el seguimiento de entregas en tiempo real y el análisis avanzado de métricas logísticas. El proyecto abarca desde la generación de datos sintéticos masivos hasta un pipeline ETL automatizado y arquitectura cloud serverless.
 
@@ -37,12 +37,12 @@ El sistema se divide en tres capas principales:
 | `A4-06_aws_setup.py` | Script de despliegue de infraestructura en AWS. |
 | `A4-lambda_functions.py` | Lógica de negocio serverless para procesamiento de eventos. |
 
-## 🚀 Desafíos Superados
+##  Desafíos Superados
 - **Integridad de Datos:** Manejo de claves foráneas y reglas de negocio en simulaciones de gran volumen.
 - **Consistencia Regional:** Resolución de conflictos de despliegue entre regiones de AWS (`us-east-1` vs `us-east-2`).
 - **Seguridad Cloud:** Implementación de variables de entorno y archivos de configuración para evitar la exposición de credenciales.
 
-## 🛠️ Requisitos
+##  Requisitos
 - Python 3.11+
 - PostgreSQL / Snowflake Account
 - AWS CLI configurado

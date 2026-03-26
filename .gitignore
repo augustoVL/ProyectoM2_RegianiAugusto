@@ -1,0 +1,13 @@
+rsa_key.p8
+rsa_key.pub
+postgres_password.txt
+# Ignorar configuración de AWS
+aws_config.json
+.aws/
+credentials
+sessions.json
+
+# Ignorar archivos temporales de Python
+__pycache__/
+*.pyc
+.env
